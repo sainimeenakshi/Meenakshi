@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>form 1</title>
+</head>
+<style>
+.box{
+color:white;
+font-size:46px;
+height:auto;
+width:35%;
+text-align:center;
+float:right;}
+
+.side{width:60%;
+height:650px;
+background-color:#fcffa4;
+border:2px solid blue;
+border-radius:8px;
+margin:20px;
+float:left;}
+
+header{
+width:100%;
+height:50px;
+background-color:#9FE2BF;
+color:#36454F;
+line-height:50px;
+font-size:30px;
+text-shadow:2px 2px white;
+text-align:center;}
+
+table,td{
+background-color:#fcffa4;
+width:90%;
+height:53px;
+
+margin:25px;
+
+}
+td{width:50%;
+cellpadding-top:10px;}
+
+label{
+color:#0096ff;}
+
+.gender{color:gray;}
+
+
+footer{
+width:100%;
+height:60px;
+background-color:#9FE2BF;
+}
+
+.button{float:right;
+background-color:green;
+color:white;
+width:100px;
+height:40px;
+border-radius:8px;
+margin:10px 70px 10px 10px;}
+
+.reset{float:left;
+background-color:green;
+color:white;
+width:100px;
+height:40px;
+border-radius:8px;
+margin:10px;}
+
+textarea{
+height:90px;
+width:670px;}
+
+
+</style>
+<body style=background-color:purple;">
+
+<div  class="side">
+    <header>Create Account</header>
+
+         <table>
+             
+
+			    <tr>
+				   <td><label>First Name*</label><br><input type="text" placeholder="enter your name" action="home.html;" style="width:310px"></input></td> 
+				   <td><label>DOB</label><br><input  type="date" style="width:310px"></input></td>
+				</tr>
+				<tr>
+				    <td colspan="2"><label>Email</label><br><input type="email" placeholder="xyz@gmail.com" style="width:670px" ></input></td>
+					</tr>
+				<tr>
+					<td><label>Password</label><br><input type="password"  placeholder="enter the password"  style="width:310px"></input></td>
+					<td><label>Time</label><br><input type="time"  style="width:310px"></input></</td>
+				</tr>
+				<tr>
+					<td><label>Gender</label><br>
+					<input type="radio"  name="gender"></input><label class="gender">female</label>
+					<input type="radio" name="gender"></input><label class="gender">male</label>
+					<input type="radio" name="gender"></input><label class="gender">other</label>
+					</td>
+					   <td><label>Hobbies</label><br>
+							<input type="checkbox"   value="music"></input><label  class="gender" >music</label>
+							<input type="checkbox"   value="sport"></></input><label class="gender">sport</label>
+							<input type="checkbox"   value="travel"></></input><label class="gender">travel</label>
+							<input type="checkbox"   value="music"></></input><label  class="gender">music</label>
+					  </td>
+				</tr>
+				<tr> 
+					<td><label>Source of Income</label><br>
+					<select  style="width:310px"></><option>Employee</option>
+					<option>Manager</option>
+					<option>Officer</option></select>
+					
+					</td><td><label for="points">Income(10k-50k)</label><br><input type="range" min="10k"  max="50k"  style="width:270px"></input>
+					<input type="button" value="50k" style="background-color:green; color:white;" ></input></td>
+				</tr>
+				<tr>
+					<td><label>Upload profile picture</label><br><input type="file"></input></td>
+					<td><label>Age</label><br><input type="number"  min="18" max="60" style="width:310px"></input></td>
+				</tr>
+				<tr>
+				    <td colspan="2"><label>Bio</label><br><textarea   ></textarea></td>
+				</tr>
+
+         </table>
+
+    <footer>
+	<input type="button" class="reset" value="Reset"></input>
+	<input type="button" class="button" value="Submit"></input></footer>
+
+</div>
+
+
+
+
+<div class="box">
+<h1>PURE  <span  style="background-color:#ffbf00;">HTML CSS </span>SIGNUP FORM</h1>
+
+
+
+</div>
+
+
+
+
+
+
+
+</body>
